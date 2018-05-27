@@ -14,5 +14,20 @@ body {
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1000px;
+    table-layout: fixed;
+}
 
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
 /* Voeg jouw css hieraan toe */
